@@ -1,0 +1,220 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: rgb(223, 219, 224);
+    width: 100%;
+    height: 70px;
+    font-family: sans-serif;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:10;
+}
+
+.top-left{
+    float:left;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    font-weight: 1000;
+    padding:0px 20px;
+}
+
+.top-right{
+    float: right;
+    color: rgb(12, 12, 12);
+    font-size: 20px;
+    padding:10px 20px;
+}
+
+.top-wrapper{
+    background-image: url("/top.JPG");
+    background-size: cover;
+    height: 600px;
+}
+
+.container img{
+    padding: 5% 0px 0px 0px;
+    height: 200px;
+    width: 200px;
+    opacity: 0.9; /* 透明度を50%に設定 */
+}
+
+.container{
+    color: rgb(40, 40, 41);
+    padding-top:80px;
+    text-align: center;
+    width: 1500px;
+}
+
+.container p{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+.explanation{
+    text-align: center;
+}
+
+.explanation-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 3px solid rgb(251, 74, 4); /* 下線を引く */
+    display: inline-block; /* テキストの幅だけに線を引く */
+    height: 55px;
+}
+
+.explanation-main{
+    background-color: rgb(245, 245, 245);
+    padding: 1px 0px;
+}
+
+.feature-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.feature-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 3px solid rgb(251, 74, 4); /* 下線を引く */
+    display: inline-block; /* テキストの幅だけに線を引く */
+    height: 55px;
+}
+
+.feature-main1{
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 30px;
+    padding: 1px 0px;
+}
+
+.feature-main2{
+    background-color: rgb(245, 245, 245);
+    padding: 1px 0px;
+    margin: 30px 0px;
+}
+
+.feature-main2-silent{
+    float: right;
+    margin: 0px 20% 0px 0px;
+    height: 300px;
+    width: 200px;
+}
+
+.silent{
+    padding-top: 30px;
+}
+
+.feature-main2-active{
+    float: left;
+    margin: 0px 0px 0px 20%;
+    height: 300px;
+    width: 450px;
+}
+
+.active{
+    padding-top: 300px;
+}
+
+.feature-main2-meeting{
+    float: right;
+    margin: 0px 20% 0px 0px;
+    height: 300px;
+    width: 450px;
+}
+
+.meeting{
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.feature-main3{
+    background-color: rgb(245, 245, 245);
+    padding: 1px 0px;
+    margin-top: 30px;
+    margin-right: 0px;
+}
+
+.fee-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fee-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 3px solid rgb(251, 74, 4); /* 下線を引く */
+    display: inline-block; /* テキストの幅だけに線を引く */
+    height: 55px;
+}
+
+.fee-main{
+    background-color: rgb(245, 245, 245);
+    padding: 10px 0px;
+    
+}
+
+table {
+    width: 600px;
+    margin: 50px auto 0px auto;
+    background-color: white;
+    font-size: 20px;
+}
+
+.use-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.use-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-bottom: 3px solid rgb(251, 74, 4); /* 下線を引く */
+    display: inline-block; /* テキストの幅だけに線を引く */
+    height: 55px;
+}
+
+.use-main{
+    background-color: rgb(245, 245, 245);
+    padding: 10px 0px;
+}
+
+footer{
+    background-color: rgb(52, 48, 48);
+    display: flex;
+    color: white;
+}
+
+.footer-topic{
+    padding: 30px 20px;
+}
+
+footer img{
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.inquiry{
+    padding: 30px 20px;
+}
+
+.privacy-link{
+    padding: 50px 20px;
+}
+
+.privacy-link a{
+    color: white;
+}
+
+.copy{
+    font-size: 10px;
+    padding: 150px 20px 0px 20px;
+}
